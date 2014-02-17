@@ -35,6 +35,10 @@ end
 # Use ActiveModel has_secure_password
  gem 'bcrypt-ruby', '~> 3.1.2'
 
+ gem 'protected_attributes'
+
+gem 'devise', '3.0.0.rc'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
